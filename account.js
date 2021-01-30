@@ -1,4 +1,4 @@
-const _obj=require('./account_list.json')
+const _obj=require('./account_list_old.json')
 const fs = require("fs")
 let _account={
     "name": "account_list",
