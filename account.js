@@ -16,6 +16,6 @@ for(let phone in _obj){
     }
     _account.value.push(_item)
 }
-fs.writeFileSync('./account_list2.json', JSON.stringify(_account));
+fs.writeFileSync('./account_list.json', JSON.stringify(_account));
 
 console.log(_account)
