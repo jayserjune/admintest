@@ -11,7 +11,7 @@ files.forEach(function(item){
         _files.forEach(function(_item){
             let _tempPath = path.join('./',tempPath,'/',_item);
             let _stats = fs.statSync(_tempPath);
-            console.log
+            // console.log
             if(!_stats.isDirectory()){
                 console.log(_tempPath+'准备转换')
                 fs.renameSync(_tempPath,_tempPath+'.json');
